@@ -1,0 +1,6 @@
+@RobitPrimeiraAPI_HostAddress = http://localhost:5100
+
+GET {{RobitPrimeiraAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

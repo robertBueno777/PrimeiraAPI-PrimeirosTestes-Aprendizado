@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "RobitPrimeiraAPI.Controllers.UsuarioController",
+    "Method": "EditarUsuarioPorId",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuarioAtualizado",
+        "Type": "RobitPrimeiraAPI.Models.UsuarioModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RobitPrimeiraAPI.Controllers.UsuarioController",
+    "Method": "CadastrarUsuario",
+    "RelativePath": "api/Usuario/CadastroDeUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "senhaUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nomeUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RobitPrimeiraAPI.Controllers.UsuarioController",
+    "Method": "CriptografarSenha",
+    "RelativePath": "api/Usuario/criptografiaDeSenha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RobitPrimeiraAPI.Controllers.UsuarioController",
+    "Method": "ExcluirUsuarioPorId",
+    "RelativePath": "api/Usuario/EclusaoDeUsuarioPorId",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RobitPrimeiraAPI.Controllers.UsuarioController",
+    "Method": "ObterLista",
+    "RelativePath": "api/Usuario/MostrarTodosOsUsuarioCadastradosNaLista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
